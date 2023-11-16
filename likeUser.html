@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the first page to about JS</title>
+  </head>
+
+  <body>
+    <button id="dzs" onclick="dianzan()">0</button>
+    <script>
+      function dianzan() {
+        // var dzs = document.getElementById("dzs");
+        // dzs.innerHTML = parseInt(dzs.innerHTML) + 1;
+
+        let dianzanshubiaoqian = document.getElementById("dzs");
+        let dianzanshu = parseInt(dianzanshubiaoqian.innerText);
+        let xinshuzi = dianzanshu + 2;
+        dianzanshubiaoqian.innerText = xinshuzi;
+      }
+    </script>
+  </body>
+</html>
